@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Reflection;
+using Microsoft.EntityFrameworkCore;
 using MTG.Application.Services;
 using MTG.Application.Services.Interfaces;
 using MTG.Database.DBContexts;
@@ -30,6 +31,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<IUnitOfWork, EFUnitOfWork>();
 builder.Services.AddScoped<IBinderService, BinderService>();
+builder.Services.AddScoped<IMtgCardService, MtgCardService>();
+
+builder.Services.AddAutoMapper(Assembly.Load("MTG.Application"));
 
 var app = builder.Build();
 

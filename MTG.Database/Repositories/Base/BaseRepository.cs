@@ -6,7 +6,7 @@ namespace MTG.Database.Repositories.Base
     public class BaseRepository<T> : IRepository<T> where T : class
     {
         private readonly DbContext _context;
-        private readonly DbSet<T> _dbSet;
+        protected readonly DbSet<T> _dbSet;
 
         public BaseRepository(DbContext context)
         {

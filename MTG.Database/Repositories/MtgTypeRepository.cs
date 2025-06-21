@@ -11,5 +11,15 @@ namespace MTG.Database.Repositories
         public MtgTypeRepository(DbContext context) : base(context)
         {
         }
+
+        public async Task<IEnumerable<MtgType>> GetMtgTypesFromIdsAsync(IEnumerable<int> typeIds, CancellationToken cancellationToken)
+        {
+            var mtgTypes = await _dbSet
+                .Where(type => typeIds.Contains(type.Id))
+                .AsNoTracking()
+                .ToListAsync(cancellationToken);
+
+            return mtgTypes;
+        }
     }
 }
