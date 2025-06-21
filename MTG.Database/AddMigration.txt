@@ -1,0 +1,3 @@
+﻿Add-Migration AddMtgCardSet -Project MTG.Database -StartupProject MTG.API
+
+Update-Database -Project MTG.Database -StartupProject MTG.API

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTG.API", "MTG.API\MTG.API.csproj", "{A685BF69-AAA6-48C1-9B11-E3CAB4308DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTG.Application", "MTG.Application\MTG.Application.csproj", "{CA980F44-E173-44C1-B9B6-A35345595F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTG.Domain", "MTG.Domain\MTG.Domain.csproj", "{546991A9-CE6D-4156-8264-A83244278801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTG.Database", "MTG.Database\MTG.Database.csproj", "{B73BAC18-F537-441E-9303-85DC092164E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A685BF69-AAA6-48C1-9B11-E3CAB4308DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A685BF69-AAA6-48C1-9B11-E3CAB4308DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A685BF69-AAA6-48C1-9B11-E3CAB4308DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A685BF69-AAA6-48C1-9B11-E3CAB4308DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA980F44-E173-44C1-B9B6-A35345595F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA980F44-E173-44C1-B9B6-A35345595F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA980F44-E173-44C1-B9B6-A35345595F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA980F44-E173-44C1-B9B6-A35345595F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546991A9-CE6D-4156-8264-A83244278801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546991A9-CE6D-4156-8264-A83244278801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546991A9-CE6D-4156-8264-A83244278801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546991A9-CE6D-4156-8264-A83244278801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73BAC18-F537-441E-9303-85DC092164E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73BAC18-F537-441E-9303-85DC092164E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73BAC18-F537-441E-9303-85DC092164E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73BAC18-F537-441E-9303-85DC092164E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B158411D-B771-447A-B090-C0D87BFF9E7D}
+	EndGlobalSection
+EndGlobal
